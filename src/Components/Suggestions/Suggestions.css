@@ -1,0 +1,39 @@
+.suggestions {
+  background-color: #f1efef;
+  padding-top: 50px;
+}
+
+.suggestion-cards-display {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestion-card {
+  padding: 20px 40px;
+  margin: 30px;
+  background-color: #d8d6d6;
+  border-radius: 10px;
+}
+
+.suggestion-card p {
+  text-align: center;
+}
+
+.more-info {
+  background-color: var(--color-highlight);
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .suggestion-cards-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .suggestion-card {
+    width: 30%;
+  }
+}

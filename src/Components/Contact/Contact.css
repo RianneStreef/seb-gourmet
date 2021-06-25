@@ -1,0 +1,13 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    flex-direction: row;
+  }
+  .contact-item {
+    width: 50%;
+  }
+}

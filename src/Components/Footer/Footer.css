@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-highlight);
+}
+
+.footer p {
+  text-align: center;
+}
+
+.footer i {
+  text-align: center;
+  font-size: x-large;
+  margin: 10px;
+}
+
+.footer-icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-item {
+    width: 30%;
+  }
+}

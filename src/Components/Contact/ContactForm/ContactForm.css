@@ -1,0 +1,29 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.input {
+  border: none;
+  border-bottom: solid 1px black;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.button {
+  background-color: var(--color-highlight);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
