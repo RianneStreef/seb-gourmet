@@ -39,8 +39,9 @@ ul {
 
 .menu-button-container {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: flex-end;
+  width: 50%;
 }
 
 .nav-link {
