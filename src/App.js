@@ -14,7 +14,7 @@ function App() {
   let languageStoredInLocalStorage = localStorage.getItem("language");
 
   let [language, setLanguage] = useState(
-    languageStoredInLocalStorage ? languageStoredInLocalStorage : "english"
+    languageStoredInLocalStorage ? languageStoredInLocalStorage : "french"
   );
 
   let languageToUse = content.english;

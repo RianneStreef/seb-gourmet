@@ -19,13 +19,13 @@ function Hero(props) {
   return (
     <div className="hero" id="home">
       <Header language={language} setLanguage={setLanguage} />
+      <div className="placeholder" />
+
       <AwesomeSlider animation="cubeAnimation" className="slider">
         <div data-src={header1} />
         <div data-src={header2} />
         <div data-src={header3} />
       </AwesomeSlider>
-
-      <h1>Seb Gourmet Traiteur</h1>
     </div>
   );
 }

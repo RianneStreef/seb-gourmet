@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../../images/logo.png";
 import "./Header.css";
 import { content } from "../../../content/languages";
 
@@ -36,10 +35,15 @@ function Header(props) {
 
   return (
     <header className="header">
-      <img src={logo} className="logo" alt="logo" />
-      <button className="hidden-desktop top header-button" id="openNav">
-        <i className="fas fa-bars" onClick={openNav}></i>
-      </button>
+      <div>
+        <h1 className="name">Seb Gourmet</h1>
+        <h1 className="title">Traiteur</h1>
+      </div>
+      <div className="menu-button-container">
+        <button className="hidden-desktop top header-button" id="openNav">
+          <i className="fas fa-bars" onClick={openNav}></i>
+        </button>
+      </div>
       <div className="header-menu">
         <div id="nav" className="nav main-menu hidden-mobile top-header">
           <button

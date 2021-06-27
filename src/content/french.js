@@ -46,8 +46,10 @@ export const french = {
   contactTitle: "Contactez nous!",
   contactName: "Nom:",
   contactEmail: "Email:",
-  contactMessage: "Message",
-  contactSend: "Envoyer",
+  contactMessage: "Message:",
+  contactSend: "Envoyer votre message",
+
+  thankYouMsg: "Merci pour votre message!",
 
   callUs: "Appellez nous",
   mailUs: "Par email",

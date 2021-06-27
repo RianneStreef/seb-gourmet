@@ -4,7 +4,6 @@
   justify-content: center;
 }
 
-iframe {
-  width: 80%;
-  height: 80%;
+.gmap_canvas {
+  overflow: hidden;
 }
