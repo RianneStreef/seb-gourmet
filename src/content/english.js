@@ -15,28 +15,31 @@ export const english = {
 
   suggestion1Title: "Cocktail",
   suggestion1p1:
-    "Buisson de brochettes Rosette tomme de Savoie, Jambon blanc, Beaufort et cornichons, Tomates cerise et billes de mozzarella, Melon jambon.",
+    "A selection of skewers: Tomme de Savoie and rosette ,ham, Beaufort and pickles, cherry tomatoes and mozzarella balls and ham and melon.",
+
   suggestion1p2:
-    "Bar à sushis (produits devant les clients), Feuilletés au Beaufort et Feuilletés pruneaux Coppa, Yakitoris à la plancha (Poulet, saumon, st jacques, bœuf), Mini hamburger au foie gras, Navettes au saumon fumé.",
+    "Sushi bar (prepared in front of the clients), Beaufort and plum with Coppa pastries, Yakitoris on the plancha (chicken, salmon, scallops and beef), Mini hamburgers with foie gras, Smoked salmon sandwiches",
+
   suggestion1p3:
-    "Fontaines à limonades (Plusieurs parfums), Cocktail au choix : framboisine ou marquise, Fontaine à jus de fruits.",
+    "Lemonade fountains (different flavours), choice of cocktail: rasberry or marquise (cocktail with with white, sparkling wine) , fruit jus fountain.",
   moreInfo1: "Contact us for more cocktails",
 
   suggestion2Title: "Buffet",
   suggestion2p1:
-    "Gâteau d’omble chevalier et crème citronnée, Salade italienne aux billes de mozzarella, Salade de légumes grillés, Marquise de charcuteries.",
-  suggestion2p2: "Cochon de lait, Gratin dauphinois, Gâteau de légumes.",
+    "Char fish and lemon cream pie, Italian salad, with mozzarelle balls, grilled vegetables salad and cold cuts.",
+
+  suggestion2p2: "Suckling pig roast, gratin dauphinois, vegetable pie.",
   suggestion2p3:
-    "Entremets pistache framboise, Chocolat fruit de la passion, Trois chocolats.",
+    "Dessertd, pistache raspberry, chocolate passion fruit and a trio of chocolats",
   moreInfo2: "Contact us for more buffets",
 
   suggestion3Title: "Meal",
   suggestion3t1: "The starters",
   suggestion3p1:
-    "Assiette gourmande terre et mer, Millefeuille de foie gras et artichaut, Tartare de st jacques aux mangues, Bisque de homard en shooter, Piquillo farci au homard et citron confit",
+    "Large platter with foie gras and artichoke pastries, scallops and mango tartar, lobster soup, lobster stuffed peppers and lemon confit",
   suggestion3t2: "The main course",
   suggestion3p2:
-    "Ballottine de poulet de Bresse, crème de morilles, Asperges rôties au lard, Tomates cerise grappe à l’origan, Brochettes de grenailles",
+    "Bresse chicken ballotine, morel cream, rosted asperagus with bacon, cherry tomatos with oregano, potato skewers",
   suggestion3t3: "Cheese platter",
   suggestion3t4: "Dessert",
   suggestion3p4: "Sweets, revisited lemon pie",

@@ -3,7 +3,6 @@ import "./Hero.css";
 import Header from "./Header/Header";
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
-
 import "react-awesome-slider/dist/styles.css";
 
 import header1 from "../../images/header1.jpeg";
