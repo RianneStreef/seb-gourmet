@@ -41,7 +41,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 50%;
 }
 
 .nav-link {
@@ -65,7 +64,7 @@ ul {
   color: var(--color-text-light);
   border: none;
   font-size: 25px;
-  margin: 10px;
+  margin: 25px;
 }
 
 @media only screen and (min-width: 768px) {
