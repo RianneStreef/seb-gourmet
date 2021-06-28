@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/seb-gourmet/static/css/main.42563e0f.chunk.css",
+    "main.js": "/seb-gourmet/static/js/main.968304b7.chunk.js",
+    "main.js.map": "/seb-gourmet/static/js/main.968304b7.chunk.js.map",
+    "runtime-main.js": "/seb-gourmet/static/js/runtime-main.b16eecd2.js",
+    "runtime-main.js.map": "/seb-gourmet/static/js/runtime-main.b16eecd2.js.map",
+    "static/css/2.34b29efe.chunk.css": "/seb-gourmet/static/css/2.34b29efe.chunk.css",
+    "static/js/2.8a8829c3.chunk.js": "/seb-gourmet/static/js/2.8a8829c3.chunk.js",
+    "static/js/2.8a8829c3.chunk.js.map": "/seb-gourmet/static/js/2.8a8829c3.chunk.js.map",
+    "static/js/3.776cfe79.chunk.js": "/seb-gourmet/static/js/3.776cfe79.chunk.js",
+    "static/js/3.776cfe79.chunk.js.map": "/seb-gourmet/static/js/3.776cfe79.chunk.js.map",
+    "index.html": "/seb-gourmet/index.html",
+    "static/css/2.34b29efe.chunk.css.map": "/seb-gourmet/static/css/2.34b29efe.chunk.css.map",
+    "static/css/main.42563e0f.chunk.css.map": "/seb-gourmet/static/css/main.42563e0f.chunk.css.map",
+    "static/js/2.8a8829c3.chunk.js.LICENSE.txt": "/seb-gourmet/static/js/2.8a8829c3.chunk.js.LICENSE.txt",
+    "static/media/header1.d1a875b9.jpeg": "/seb-gourmet/static/media/header1.d1a875b9.jpeg",
+    "static/media/header2.babd5d81.jpeg": "/seb-gourmet/static/media/header2.babd5d81.jpeg",
+    "static/media/header3.e92b325f.jpeg": "/seb-gourmet/static/media/header3.e92b325f.jpeg",
+    "static/media/icon-en.f7867699.png": "/seb-gourmet/static/media/icon-en.f7867699.png",
+    "static/media/icon-fr.b70c7a2a.png": "/seb-gourmet/static/media/icon-fr.b70c7a2a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b16eecd2.js",
+    "static/css/2.34b29efe.chunk.css",
+    "static/js/2.8a8829c3.chunk.js",
+    "static/css/main.42563e0f.chunk.css",
+    "static/js/main.968304b7.chunk.js"
+  ]
+}
