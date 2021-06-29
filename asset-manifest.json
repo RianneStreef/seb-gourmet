@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/seb-gourmet/static/css/main.aa77818f.chunk.css",
-    "main.js": "/seb-gourmet/static/js/main.901e77ef.chunk.js",
-    "main.js.map": "/seb-gourmet/static/js/main.901e77ef.chunk.js.map",
+    "main.js": "/seb-gourmet/static/js/main.ad79f839.chunk.js",
+    "main.js.map": "/seb-gourmet/static/js/main.ad79f839.chunk.js.map",
     "runtime-main.js": "/seb-gourmet/static/js/runtime-main.dd4f2b15.js",
     "runtime-main.js.map": "/seb-gourmet/static/js/runtime-main.dd4f2b15.js.map",
     "static/css/2.34b29efe.chunk.css": "/seb-gourmet/static/css/2.34b29efe.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.34b29efe.chunk.css",
     "static/js/2.9e24d310.chunk.js",
     "static/css/main.aa77818f.chunk.css",
-    "static/js/main.901e77ef.chunk.js"
+    "static/js/main.ad79f839.chunk.js"
   ]
 }
