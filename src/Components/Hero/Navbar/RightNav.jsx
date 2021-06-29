@@ -1,0 +1,112 @@
+import React from "react";
+import "./Header.css";
+import { content } from "../../../content/languages";
+
+import flagEn from "../../../images/icon-en.png";
+import flagFr from "../../../images/icon-fr.png";
+
+import { Link } from "react-scroll";
+
+import styled from "styled-components";
+
+const Ul = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 0;
+  li {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media (max-width: 768px) {
+    flex-flow: column nowrap;
+    background-color: #0d2538;
+    position: fixed;
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+    transition: transform 0.3s ease-in-out;
+    li {
+      color: #fff;
+    }
+  }
+`;
+
+function RightNav(props) {
+  let { open, language, setLanguage } = props;
+
+  let languageToUse = content.english;
+
+  language === "english"
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
+  function handleSetLanguage(language) {
+    setLanguage(language);
+    storeLanguageInLocalStorage(language);
+  }
+
+  function storeLanguageInLocalStorage(language) {
+    localStorage.setItem("language", language);
+  }
+
+  return (
+    <Ul open={open}>
+      <li className="menu-item">
+        <Link activeClass="active" to="home" spy={true} smooth={true}>
+          <p className="nav-link">{languageToUse.menuHome}</p>
+        </Link>
+      </li>
+      <span className="dot">&#8226;</span>
+
+      <li className="menu-item">
+        <Link to="welcome" spy={true} smooth={true}>
+          <p className="nav-link">{languageToUse.menuWelcome}</p>
+        </Link>
+      </li>
+      <span className="dot">&#8226;</span>
+
+      <li className="menu-item">
+        <Link to="suggestions" spy={true} smooth={true}>
+          <p className="nav-link">{languageToUse.menuSuggestions}</p>
+        </Link>
+      </li>
+      <span className="dot">&#8226;</span>
+
+      <li className="menu-item">
+        <Link to="insta" spy={true} smooth={true}>
+          <p className="nav-link">{languageToUse.menuInsta}</p>
+        </Link>
+      </li>
+      <span className="dot">&#8226;</span>
+      <li className="menu-item">
+        <Link to="contact" spy={true} smooth={true}>
+          <p className="nav-link">{languageToUse.menuContact}</p>
+        </Link>
+      </li>
+      <li>
+        {languageToUse.language === "english" ? (
+          <img
+            className="language-icon"
+            src={flagFr}
+            onClick={() => handleSetLanguage("french")}
+            alt="Set language to French"
+          />
+        ) : (
+          <img
+            className="language-icon"
+            src={flagEn}
+            onClick={() => handleSetLanguage("english")}
+            alt="Set language to English"
+          />
+        )}
+      </li>
+    </Ul>
+  );
+}
+
+export default RightNav;
