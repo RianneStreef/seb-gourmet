@@ -37,7 +37,7 @@ const Ul = styled.ul`
 `;
 
 function RightNav(props) {
-  let { open, language, setLanguage } = props;
+  let { open, setOpen, language, setLanguage } = props;
 
   let languageToUse = content.english;
 
@@ -57,34 +57,60 @@ function RightNav(props) {
   return (
     <Ul open={open}>
       <li className="menu-item">
-        <Link activeClass="active" to="home" spy={true} smooth={true}>
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          onClick={() => setOpen(!open)}
+        >
           <p className="nav-link">{languageToUse.menuHome}</p>
         </Link>
       </li>
       <span className="dot">&#8226;</span>
 
       <li className="menu-item">
-        <Link to="welcome" spy={true} smooth={true}>
+        <Link
+          to="welcome"
+          spy={true}
+          smooth={true}
+          onClick={() => setOpen(!open)}
+        >
           <p className="nav-link">{languageToUse.menuWelcome}</p>
         </Link>
       </li>
       <span className="dot">&#8226;</span>
 
       <li className="menu-item">
-        <Link to="suggestions" spy={true} smooth={true}>
+        <Link
+          to="suggestions"
+          spy={true}
+          smooth={true}
+          onClick={() => setOpen(!open)}
+        >
           <p className="nav-link">{languageToUse.menuSuggestions}</p>
         </Link>
       </li>
       <span className="dot">&#8226;</span>
 
       <li className="menu-item">
-        <Link to="insta" spy={true} smooth={true}>
+        <Link
+          to="insta"
+          spy={true}
+          smooth={true}
+          onClick={() => setOpen(!open)}
+        >
           <p className="nav-link">{languageToUse.menuInsta}</p>
         </Link>
       </li>
       <span className="dot">&#8226;</span>
       <li className="menu-item">
-        <Link to="contact" spy={true} smooth={true}>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          onClick={() => setOpen(!open)}
+        >
           <p className="nav-link">{languageToUse.menuContact}</p>
         </Link>
       </li>

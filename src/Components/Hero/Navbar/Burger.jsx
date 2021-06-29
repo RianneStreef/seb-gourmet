@@ -47,7 +47,12 @@ const Burger = (props) => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open} language={language} setLanguage={setLanguage} />
+      <RightNav
+        open={open}
+        setOpen={setOpen}
+        language={language}
+        setLanguage={setLanguage}
+      />
     </>
   );
 };
