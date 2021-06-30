@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/seb-gourmet/static/css/main.b96c297d.chunk.css",
-    "main.js": "/seb-gourmet/static/js/main.13faeb6c.chunk.js",
-    "main.js.map": "/seb-gourmet/static/js/main.13faeb6c.chunk.js.map",
+    "main.js": "/seb-gourmet/static/js/main.2631a12f.chunk.js",
+    "main.js.map": "/seb-gourmet/static/js/main.2631a12f.chunk.js.map",
     "runtime-main.js": "/seb-gourmet/static/js/runtime-main.cbbef507.js",
     "runtime-main.js.map": "/seb-gourmet/static/js/runtime-main.cbbef507.js.map",
     "static/css/2.34b29efe.chunk.css": "/seb-gourmet/static/css/2.34b29efe.chunk.css",
@@ -16,8 +16,8 @@
     "static/js/2.71be34ab.chunk.js.LICENSE.txt": "/seb-gourmet/static/js/2.71be34ab.chunk.js.LICENSE.txt",
     "static/media/banner.2613212a.jpg": "/seb-gourmet/static/media/banner.2613212a.jpg",
     "static/media/banner2.a4c24caf.jpg": "/seb-gourmet/static/media/banner2.a4c24caf.jpg",
-    "static/media/header2.babd5d81.jpeg": "/seb-gourmet/static/media/header2.babd5d81.jpeg",
-    "static/media/header3.e92b325f.jpeg": "/seb-gourmet/static/media/header3.e92b325f.jpeg",
+    "static/media/header2.acf49818.jpeg": "/seb-gourmet/static/media/header2.acf49818.jpeg",
+    "static/media/header3.48860c2e.jpeg": "/seb-gourmet/static/media/header3.48860c2e.jpeg",
     "static/media/homepage-1.9fccd1a5.jpg": "/seb-gourmet/static/media/homepage-1.9fccd1a5.jpg",
     "static/media/icon-en.f7867699.png": "/seb-gourmet/static/media/icon-en.f7867699.png",
     "static/media/icon-fr.b70c7a2a.png": "/seb-gourmet/static/media/icon-fr.b70c7a2a.png",
@@ -31,6 +31,6 @@
     "static/css/2.34b29efe.chunk.css",
     "static/js/2.71be34ab.chunk.js",
     "static/css/main.b96c297d.chunk.css",
-    "static/js/main.13faeb6c.chunk.js"
+    "static/js/main.2631a12f.chunk.js"
   ]
 }
