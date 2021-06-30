@@ -19,21 +19,56 @@
   text-align: center;
 }
 
+.suggestion-title {
+  margin-top: 80px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+.tilde {
+  width: 40%;
+  padding: 40px;
+}
+
+.menu-title {
+  margin-bottom: 40px;
+}
+
+.meal-title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.meal-description {
+  margin-top: 0;
+}
+
 .more-info {
-  background-color: var(--color-highlight);
   text-align: center;
   width: fit-content;
   margin: auto;
-  padding: 5px;
+  padding: 0 0 50px 0;
+  font-size: 0.7rem;
+
 }
+
 
 @media only screen and (min-width: 768px) {
   .suggestion-cards-display {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 60px 60px 20px 60px; 
+
   }
   .suggestion-card {
     width: 30%;
+  }
+
+  .more-info {
+    font-size: 0.8rem;
   }
 }

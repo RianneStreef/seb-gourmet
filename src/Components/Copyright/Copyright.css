@@ -1,4 +1,13 @@
 .copyright {
   text-align: center;
-  font-size: small;
+  font-size: 0.7em;
+
+}
+
+.fa-copyright {
+  font-size: 0.5em;
+}
+
+.vts {
+  font-size: 0.6em;
 }

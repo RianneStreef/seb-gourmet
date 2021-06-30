@@ -14,25 +14,26 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   margin-top: 0;
+  padding-left: 0;
   li {
     padding: 5px 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-weight: 800;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;
-    background-color: #0d2538;
+    background-color: #6a6a6a;
+    color: #fff;
     position: fixed;
     transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
     top: 0;
     right: 0;
     height: 100vh;
-    width: 300px;
+    width: 40%;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
-    li {
-      color: #fff;
-    }
   }
 `;
 
@@ -56,7 +57,7 @@ function RightNav(props) {
 
   return (
     <Ul open={open}>
-      <li className="menu-item">
+      {/* <li className="menu-item">
         <Link
           activeClass="active"
           to="home"
@@ -67,7 +68,7 @@ function RightNav(props) {
           <p className="nav-link">{languageToUse.menuHome}</p>
         </Link>
       </li>
-      <span className="dot">&#8226;</span>
+      <span className="dot">&#8226;</span> */}
 
       <li className="menu-item">
         <Link

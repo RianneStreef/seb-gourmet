@@ -1,6 +1,10 @@
 .welcome {
   max-width: 1000px;
   text-align: center;
-  margin: 0 auto;
-  padding: 40px;
+  margin: 20px auto;
+  padding: 70px;
+}
+
+.welcome-title {
+  margin-top: 50px;
 }

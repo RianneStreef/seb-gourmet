@@ -4,14 +4,14 @@ export const english = {
   menuHome: "Home",
   menuWelcome: "Welcome",
   menuSuggestions: "Suggestions",
-  menuInsta: "Instagram",
+  menuInsta: "In Photos",
   menuContact: "Contact",
 
   welcomeHeader: "Welcome",
   welcomeText:
     "SEB GOURMET TRAITEUR is an event company created in 2011 in the heart of Villartier, a small hamlet of the Belleville in Tarentaise (Savoie). We provide all types of services in the place of your choice (home, holiday room, rental chalet,...) with or without staff. The panel of our services extends from the deliveries of crèches and schools, to cocktails (dinner or not), to family and business meals, to weddings and other ceremonies. We focus on quality products that are processed by qualified staff (baker, pastry chef, butcher, caterer,...)",
 
-  suggestionsHeader: "Our suggestions of the day",
+  suggestionsHeader: "Our suggestions",
 
   suggestion1Title: "Cocktail",
   suggestion1p1:
@@ -22,7 +22,6 @@ export const english = {
 
   suggestion1p3:
     "Lemonade fountains (different flavours), choice of cocktail: rasberry or marquise (cocktail with with white, sparkling wine) , fruit jus fountain.",
-  moreInfo1: "Contact us for more cocktails",
 
   suggestion2Title: "Buffet",
   suggestion2p1:
@@ -31,7 +30,6 @@ export const english = {
   suggestion2p2: "Suckling pig roast, gratin dauphinois, vegetable pie.",
   suggestion2p3:
     "Dessertd, pistache raspberry, chocolate passion fruit and a trio of chocolats",
-  moreInfo2: "Contact us for more buffets",
 
   suggestion3Title: "Meal",
   suggestion3t1: "The starters",
@@ -43,9 +41,12 @@ export const english = {
   suggestion3t3: "Cheese platter",
   suggestion3t4: "Dessert",
   suggestion3p4: "Sweets, revisited lemon pie",
-  moreInfo3: "Contact us for more meals",
 
-  instaFeed: "Photo gallery",
+  moreInfo: "Do hesitate to contact us for more suggestions",
+
+  instaFeed: "In photos",
+
+  contactMainTitle: "Need to contact us?",
 
   contactTitle: "Contact us!",
   contactName: "Name:",
@@ -56,9 +57,10 @@ export const english = {
   thankYouMsg: "Thank you for your message!",
 
   callUs: "Call us",
-  mailUs: "Mail us",
+  mailUs: "Contact us by email",
   address: "Our Address",
-  ourAddress: "Seb Gourmet Traiteur Villartier 73440 Les Belleville France",
+  ourAddress: "Seb Gourmet Traiteur",
+  ourAddress2: "73440 Les Belleville France",
 
-  copyright: "Seb Gourmet. All rights reserved. Created by ",
+  copyright: " Seb Gourmet Traiteur. All rights reserved. Created by ",
 };

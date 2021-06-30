@@ -4,6 +4,10 @@
   padding: 20px;
 }
 
+.contact-title {
+  margin-bottom: 30px;
+}
+
 .input {
   border: none;
   border-bottom: solid 1px black;
@@ -12,13 +16,24 @@
 }
 
 .button {
-  background-color: var(--color-highlight);
-  border: none;
+  border: solid 1px #000;
+  color: #000;
+  background: transparent;
   padding: 10px 20px;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
   border-radius: 10px;
   font-weight: bold;
+  transition: all 500ms ease;
+  cursor: pointer;
+
+}
+
+.button:hover{
+  background-color: #ffa33d;
+  border: solid 1px #fff;
+  color: #fff;
+  transition: all 500ms ease;
 }
 
 .button-container {

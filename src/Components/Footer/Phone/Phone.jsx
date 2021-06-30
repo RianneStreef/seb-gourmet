@@ -15,11 +15,13 @@ const Phone = (props) => {
   return (
     <div className="footer-item">
       <div className="footer-icon">
-        <i className="far fa-comments" />
+        <i className="fas fa-phone" />
       </div>
       <h4>{language.callUs}</h4>
       <a href="tel:0033679783308">
-        <p>+33 (0)6 79 78 33 08</p>
+        <p>
+          <i>+33 (0)6 79 78 33 08</i>
+        </p>
       </a>
     </div>
   );

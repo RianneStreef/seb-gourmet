@@ -11,10 +11,19 @@ const Address = (props) => {
   return (
     <div className="footer-item">
       <div className="footer-icon">
-        <i className="fas fa-map-pin"></i>
+        <i className="fas fa-map-pin i"></i>
       </div>
       <h4>{language.address}</h4>
-      <p>{language.ourAddress}</p>
+
+      <p className="address">
+        {" "}
+        <i>{language.ourAddress} </i>
+      </p>
+
+      <p className="address">
+        {" "}
+        <i>{language.ourAddress2} </i>
+      </p>
     </div>
   );
 };

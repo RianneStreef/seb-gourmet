@@ -12,9 +12,17 @@ const Copyright = (props) => {
   return (
     <div className="copyright">
       <p>
-        Copyright <i className="far fa-copyright" /> {language.copyright}
+        Copyright
+        <sup>
+          {" "}
+          <i class="far fa-copyright" />{" "}
+        </sup>{" "}
+        {language.copyright}
+      </p>
+      <p className="vts">
+        {language.copyright2}
         <a href="http://www.vts-webdesign.com" target="blank">
-          VTS Web Design
+          <b>VTS-WebDesign</b>
         </a>
       </p>
     </div>

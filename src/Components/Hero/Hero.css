@@ -1,14 +1,14 @@
 .slider {
-  max-width: 1000px !important;
+  max-width: 1200px !important;
   margin: auto;
 }
 
 .placeholder {
   height: 80px;
 }
-
+/* 
 @media only screen and (min-width: 768px) {
   .hero {
     height: 100vh;
   }
-}
+} */

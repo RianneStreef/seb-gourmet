@@ -15,7 +15,9 @@ const Mail = (props) => {
       </div>
       <h4>{language.mailUs}</h4>
       <a href="mailto:sebgourmettraiteur@orange.fr">
-        <p>sebgourmettraiteur@orange.fr</p>
+        <p>
+          <i>sebgourmettraiteur@orange.fr</i>
+        </p>
       </a>
     </div>
   );

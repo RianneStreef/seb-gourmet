@@ -10,8 +10,9 @@ const Welcome = (props) => {
     : (language = content.french);
   return (
     <div className="welcome" id="welcome">
-      <h2>{language.welcomeHeader}</h2>
-      <p>{language.welcomeText}</p>
+      <h2 className="welcome-title">{language.welcomeHeader}</h2>
+      <p className="line-height">{language.welcomeText}</p>
+      <p className="line-height">{language.welcomeText2}</p>
     </div>
   );
 };

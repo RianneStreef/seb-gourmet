@@ -6,7 +6,7 @@ const Nav = styled.nav`
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-space-around;
   align-items: center;
   position: fixed;
   background-color: #fff;
@@ -14,7 +14,18 @@ const Nav = styled.nav`
 `;
 
 const Name = styled.div`
-  margin-right: 5px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+`;
+
+const NameTitle = styled.h1`
+  font-size: 1.3rem;
+`;
+
+const Title = styled.h1`
+  font-size: 1.8rem;
 `;
 
 const Navbar = (props) => {
@@ -23,8 +34,8 @@ const Navbar = (props) => {
   return (
     <Nav>
       <Name>
-        <h1 className="name">Seb Gourmet</h1>
-        <h1 className="title">Traiteur</h1>
+        <NameTitle>Seb Gourmet</NameTitle>
+        <Title>Traiteur</Title>
       </Name>{" "}
       <Burger language={language} setLanguage={setLanguage} />
     </Nav>

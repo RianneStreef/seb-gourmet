@@ -19,7 +19,7 @@ const ContactForm = (props) => {
 
   return (
     <div className="contact-form contact-item">
-      <h3>{language.contactTitle}</h3>
+      <h3 className="contact-title">{language.contactTitle}</h3>
 
       <div id="contact">
         <form onSubmit={handleSubmit} className="contact-form">
