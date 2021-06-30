@@ -1,7 +1,6 @@
 .contact {
   display: flex;
   flex-direction: column;
-  padding-top: 70px
 
 }
 
@@ -9,9 +8,16 @@
   margin-bottom: 50px;
 }
 
-@media only screen and (min-width: 768px) {
+.contact-id {
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 1024px) {
   .contact {
     flex-direction: column;
+    background-color: #f1efef;
+
   }
   .contact-item {
     width: 50%;

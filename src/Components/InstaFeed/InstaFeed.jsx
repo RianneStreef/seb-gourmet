@@ -11,10 +11,12 @@ const InstaFeed = (props) => {
     ? (language = content.english)
     : (language = content.french);
   return (
-    <div id="insta" className="insta">
-      <h2>{language.instaFeed}</h2>
-      <div data-mc-src="f10e8e66-aada-4742-9b38-f3d4068eec81#instagram"></div>
-    </div>
+    <>
+      <div id="insta" className="insta">
+        <h2>{language.instaFeed}</h2>
+        <div data-mc-src="f10e8e66-aada-4742-9b38-f3d4068eec81#instagram"></div>
+      </div>
+    </>
   );
 };
 

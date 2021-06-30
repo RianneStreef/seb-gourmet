@@ -15,12 +15,18 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   margin-top: 0;
   padding-left: 0;
+
   li {
     padding: 5px 10px;
     display: flex;
     justify-content: flex-start;
     cursor: pointer;
     font-weight: 800;
+    transition: color 500ms ease;
+  }
+  li:hover {
+    color: #ffa33d;
+    transition: color 500ms ease;
   }
   @media (max-width: 768px) {
     flex-flow: column nowrap;

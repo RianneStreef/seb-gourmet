@@ -4,7 +4,7 @@ export const english = {
   menuHome: "Home",
   menuWelcome: "Welcome",
   menuSuggestions: "Suggestions",
-  menuInsta: "In Photos",
+  menuInsta: "Photos",
   menuContact: "Contact",
 
   welcomeHeader: "Welcome",
@@ -46,12 +46,12 @@ export const english = {
 
   instaFeed: "In photos",
 
-  contactMainTitle: "Need to contact us?",
+  contactMainTitle: "To contact us",
 
-  contactTitle: "Contact us!",
+  contactTitle: "Let us know what you think!",
   contactName: "Name:",
   contactEmail: "Email:",
-  contactMessage: "Message",
+  contactMessage: "Your message",
   contactSend: "Send your message",
 
   thankYouMsg: "Thank you for your message!",
@@ -62,5 +62,6 @@ export const english = {
   ourAddress: "Seb Gourmet Traiteur",
   ourAddress2: "73440 Les Belleville France",
 
-  copyright: " Seb Gourmet Traiteur. All rights reserved. Created by ",
+  copyright:
+    " Seb Gourmet Traiteur. All rights reserved. Pictures are not contractual. Created by ",
 };

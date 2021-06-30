@@ -11,7 +11,8 @@
 .suggestion-card {
   padding: 20px 40px;
   margin: 30px;
-  background-color: #d8d6d6;
+  /* background-color: #d8d6d6; */
+  background-color: #fff;
   border-radius: 10px;
 }
 
@@ -31,6 +32,17 @@
 .tilde {
   width: 40%;
   padding: 40px;
+}
+
+.suggestion-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-header {
+  width: 40%;
+  align-items: center;
 }
 
 .menu-title {
@@ -55,8 +67,15 @@
 
 }
 
+.suggestion-button-container {
+  padding: 0 0 40px 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 1200px) {
   .suggestion-cards-display {
     display: flex;
     flex-direction: row;
@@ -70,5 +89,10 @@
 
   .more-info {
     font-size: 0.8rem;
+  }
+
+  .round-header {
+    width: 70%;
+    align-items: center;
   }
 }

@@ -3,14 +3,20 @@ import styled from "styled-components";
 import Burger from "./Burger";
 
 const Nav = styled.nav`
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-right: 100px;
+  margin-right: 100px;
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: space-space-around;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   background-color: #fff;
   z-index: 999;
+  font-family: "Roboto", sans-serif;
 `;
 
 const Name = styled.div`
@@ -18,6 +24,9 @@ const Name = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  @media only screen and (min-width: 1024px) {
+    margin-left: 250px;
+  }
 `;
 
 const NameTitle = styled.h1`

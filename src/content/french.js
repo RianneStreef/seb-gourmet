@@ -2,8 +2,8 @@ export const french = {
   language: "french",
   menuHome: "Accueil",
   menuWelcome: "Bienvenue",
-  menuSuggestions: "Nos Suggestions",
-  menuInsta: "En Images",
+  menuSuggestions: "Suggestions",
+  menuInsta: "Images",
   menuContact: "Contact",
 
   welcomeHeader: "Bienvenue",
@@ -40,16 +40,16 @@ export const french = {
   suggestion3t4: "Dessert",
   suggestion3p4: "Mignardises, tarte citron revisitée.",
 
-  moreInfo: "N'hesitez pas à nous contacter pour plus de suggestions.",
+  moreInfo: "N'hesitez pas à nous contacter pour plus de suggestions",
 
   instaFeed: "En Images",
 
-  contactMainTitle: "Besoin de nous joindre ?",
+  contactMainTitle: "Pour nous joindre",
 
-  contactTitle: "Contactez nous !",
+  contactTitle: "Dîtes nous tout !",
   contactName: "Nom:",
   contactEmail: "Email:",
-  contactMessage: "Message:",
+  contactMessage: "Votre message:",
   contactSend: "Envoyer votre message",
 
   thankYouMsg: "Merci pour votre message!",
@@ -59,6 +59,7 @@ export const french = {
   address: "Notre Addresse",
   ourAddress: "Seb Gourmet Traiteur",
   ourAddress2: "73440 Les Belleville France",
-  copyright: " Seb Gourmet Traiteur. Tous droits réservés. ",
+  copyright:
+    " Seb Gourmet Traiteur. Tous droits réservés. Images non contractuelles. ",
   copyright2: "Creé par ",
 };

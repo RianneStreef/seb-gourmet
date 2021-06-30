@@ -1,8 +1,9 @@
 .footer {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 20px 0 40px 0;
   background-color: #f1efef;
+  margin-top: 30px;
 
 }
 
@@ -14,7 +15,7 @@
 
 .footer i {
   text-align: center;
-  font-size: x-large;
+  font-size: large;
   margin: 30px 0 15px 0;
 }
 
@@ -25,6 +26,10 @@
   color: #ffa33d
 }
 
+.footer a {
+  color: #000
+}
+
 
 
 h4 {
@@ -32,7 +37,7 @@ h4 {
   margin-top: 10px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .footer {
     flex-direction: row;
     justify-content: space-between;
@@ -43,4 +48,9 @@ h4 {
   .footer >div {
     width: 30%;
 }
+
+.footer i {
+  font-size: large;
+}
+
 }

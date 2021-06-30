@@ -14,13 +14,18 @@ const Contact = (props) => {
     : (language = content.french);
 
   return (
-    <div className="contact" id="contact">
-      <h2 className="contact-title">{language.contactMainTitle}</h2>
-      <div className="contact-options">
-        <Location language={language} />
-        <ContactForm language={language} />
+    <>
+      <h2 className="contact-id" id="contact">
+        Contact
+      </h2>
+
+      <div className="contact">
+        <div className="contact-options">
+          <Location language={language} />
+          <ContactForm language={language} />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

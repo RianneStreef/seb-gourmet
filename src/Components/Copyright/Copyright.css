@@ -9,5 +9,9 @@
 }
 
 .vts {
-  font-size: 0.6em;
+  font-size: 0.8em;
+}
+
+.vts a {
+  color: #000;
 }

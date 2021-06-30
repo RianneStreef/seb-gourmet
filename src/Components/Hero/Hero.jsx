@@ -5,7 +5,7 @@ import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 
-import header1 from "../../images/header1.jpeg";
+import header1 from "../../images/homepage-1.jpg";
 import header2 from "../../images/header2.jpeg";
 import header3 from "../../images/header3.jpeg";
 
