@@ -3,9 +3,37 @@
   text-align: center;
   margin: 20px auto;
   padding: 70px;
+  display: flex;
+
   
+}
+
+.welcome-img {
+  display: none;
 }
 
 .welcome-title {
   margin-top: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+.welcome {
+  flex-direction: row;
+  padding: 70px 0 70px 100px;}
+
+.welcome >div {
+  width: 50%;
+}
+.welcome-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.welcome-img{
+  display: flex;;
+  width: 80%;
+}
+
 }

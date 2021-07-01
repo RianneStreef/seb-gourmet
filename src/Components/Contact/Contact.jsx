@@ -15,10 +15,6 @@ const Contact = (props) => {
 
   return (
     <>
-      <h2 className="contact-id" id="contact">
-        Contact
-      </h2>
-
       <div className="contact">
         <div className="contact-options">
           <Location language={language} />
