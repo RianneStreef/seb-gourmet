@@ -21,18 +21,22 @@
   flex-direction: row;
   padding: 70px 0 70px 100px;}
 
-.welcome >div {
-  width: 50%;
-}
+
 .welcome-right{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  width: 30%;
+}
+
+.welcome-left {
+  width: 70%;
 }
 
 .welcome-img{
-  display: flex;;
+  display: flex;
+  margin: auto;
   width: 80%;
 }
 
