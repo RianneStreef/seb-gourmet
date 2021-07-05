@@ -6,32 +6,35 @@ import { content } from "../../../content/languages";
 import "./ContactForm.css";
 
 const ContactForm = (props) => {
-  let { language } = props;
+  let { language, languageToUse } = props;
 
   language === "english"
-    ? (language = content.english)
-    : (language = content.french);
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
+  console.log(language);
+  console.log(languageToUse.language);
 
   const [state, handleSubmit] = useForm("mqkwlajv");
   if (state.succeeded) {
-    return <p>{language.thankYouMsg}</p>;
+    return <p>{languageToUse.thankYouMsg}</p>;
   }
 
   return (
     <div className="contact-form contact-item">
-      <h3 className="contact-title">{language.contactMainTitle}</h3>
+      <h3 className="contact-title">{languageToUse.contactMainTitle}</h3>
 
       <div id="contact">
         <form onSubmit={handleSubmit} className="contact-form">
-          <label htmlFor="email">{language.contactEmail}</label>
+          <label htmlFor="email">{languageToUse.contactEmail}</label>
           <input id="email" type="email" name="email" className="input" />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
 
-          <label htmlFor="name">{language.contactName}</label>
+          <label htmlFor="name">{languageToUse.contactName}</label>
           <input id="name" type="text" name="name" className="input" />
           <ValidationError prefix="Name" field="name" errors={state.errors} />
 
-          <label htmlFor="email">{language.contactMessage}</label>
+          <label htmlFor="email">{languageToUse.contactMessage}</label>
           <textarea id="message" name="message" className="input" />
           <ValidationError
             prefix="Message"
@@ -44,7 +47,7 @@ const ContactForm = (props) => {
               disabled={state.submitting}
               className="button border"
             >
-              {language.contactSend}
+              {languageToUse.contactSend}
             </button>
           </div>
         </form>

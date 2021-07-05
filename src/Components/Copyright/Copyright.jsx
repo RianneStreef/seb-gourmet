@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
+
 import { content } from "../../content/languages";
 
 import "./Copyright.css";
@@ -24,6 +27,7 @@ const Copyright = (props) => {
         <a href="http://www.vts-webdesign.com" target="blank">
           <b>VTS-WebDesign</b>
         </a>
+        <Link to="/legal"> - Mentions Légales</Link>
       </p>
     </div>
   );

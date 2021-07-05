@@ -7,18 +7,20 @@ import { content } from "../../content/languages";
 import "./Contact.css";
 
 const Contact = (props) => {
-  let { language } = props;
+  let { language, languageToUse } = props;
 
   language === "english"
-    ? (language = content.english)
-    : (language = content.french);
+    ? (languageToUse = content.english)
+    : (languageToUse = content.french);
+
+  console.log(language);
 
   return (
     <>
       <div className="contact">
         <div className="contact-options">
           <Location language={language} />
-          <ContactForm language={language} />
+          <ContactForm language={language} languageToUse={languageToUse} />
         </div>
       </div>
     </>
