@@ -9,6 +9,9 @@ import header1 from "../../images/homepage-1.jpg";
 import header2 from "../../images/header2.jpeg";
 import header3 from "../../images/header3.jpeg";
 
+import header4 from "../../images/header4.jpeg";
+import header5 from "../../images/header5.jpeg";
+
 function Hero(props) {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -27,8 +30,17 @@ function Hero(props) {
         interval={6000}
       >
         <div data-src={header1} />
-        <div data-src={header2} />
-        <div data-src={header3} />
+
+        {language === "french" ? (
+          <div data-src={header2} />
+        ) : (
+          <div data-src={header2} />
+        )}
+        {language === "french" ? (
+          <div data-src={header3} />
+        ) : (
+          <div data-src={header3} />
+        )}
       </AutoplaySlider>
     </div>
   );

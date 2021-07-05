@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import Copyright from "../Copyright/Copyright";
 
 import banner from "../../images/banner.jpg";
+import bannerEN from "../../images/bannerEN.jpg";
 import banner2 from "../../images/banner2.jpg";
 
 import { content } from "../../content/languages";
@@ -30,11 +31,21 @@ function App() {
         languageToUse={languageToUse}
       />
       <Welcome language={language} languageToUse={languageToUse} />
-      <img
-        src={banner}
-        className="banner"
-        alt="Le partenaire gourmet pour vos évenéments"
-      />
+
+      {language === "french" ? (
+        <img
+          src={banner}
+          className="banner"
+          alt="Le partenaire gourmet pour vos évenéments"
+        />
+      ) : (
+        <img
+          src={bannerEN}
+          className="banner"
+          alt="Le partenaire gourmet pour vos évenéments"
+        />
+      )}
+
       <Suggestions language={language} languageToUse={languageToUse} />
       <InstaFeed language={language} languageToUse={languageToUse} />
 

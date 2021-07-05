@@ -59,7 +59,9 @@ export const french = {
   address: "Notre Addresse",
   ourAddress: "Seb Gourmet Traiteur",
   ourAddress2: "73440 Les Belleville France",
-  copyright:
-    " Seb Gourmet Traiteur. Tous droits réservés. Images non contractuelles. ",
-  copyright2: "Creé par ",
+
+  copyright: "Seb Gourmet Traiteur. Tous droits réservés.",
+  copyright2: "Images non contractuelles. ",
+  mentionsLegale: "- Mentions Légales",
+  copyright3: "Creé par ",
 };

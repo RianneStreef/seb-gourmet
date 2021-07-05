@@ -22,12 +22,14 @@ const Copyright = (props) => {
         </sup>{" "}
         {language.copyright}
       </p>
+      <p>
+        {language.copyright2} <Link to="/legal">{language.mentionsLegale}</Link>
+      </p>
       <p className="vts">
-        {language.copyright2}
+        {language.copyright3}
         <a href="http://www.vts-webdesign.com" target="blank">
           <b>VTS-WebDesign</b>
         </a>
-        <Link to="/legal"> - Mentions Légales</Link>
       </p>
     </div>
   );
