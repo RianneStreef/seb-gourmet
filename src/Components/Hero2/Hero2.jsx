@@ -1,0 +1,49 @@
+import React from "react";
+import "./Hero2.css";
+import Navbar2 from "./Navbar2/Navbar2";
+import AwesomeSlider from "react-awesome-slider";
+import withAutoplay from "react-awesome-slider/dist/autoplay";
+import "react-awesome-slider/dist/styles.css";
+
+import header1 from "../../images/homepage-1.jpg";
+import header2 from "../../images/header2.jpeg";
+import header3 from "../../images/header3.jpeg";
+
+import header4 from "../../images/header4.jpeg";
+import header5 from "../../images/header5.jpeg";
+
+function Hero2(props) {
+  const AutoplaySlider = withAutoplay(AwesomeSlider);
+
+  let { language, setLanguage } = props;
+
+  return (
+    <div className="hero" id="home">
+      <Navbar2 language={language} setLanguage={setLanguage} />
+      <div className="placeholder" />
+
+      <AutoplaySlider
+        animation="cubeAnimation"
+        className="slider"
+        play={true}
+        cancelOnInteraction={false}
+        interval={6000}
+      >
+        <div data-src={header1} />
+
+        {language === "french" ? (
+          <div data-src={header2} />
+        ) : (
+          <div data-src={header2} />
+        )}
+        {language === "french" ? (
+          <div data-src={header3} />
+        ) : (
+          <div data-src={header3} />
+        )}
+      </AutoplaySlider>
+    </div>
+  );
+}
+
+export default Hero2;

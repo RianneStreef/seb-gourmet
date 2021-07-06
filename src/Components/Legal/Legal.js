@@ -1,12 +1,12 @@
 import React from "react";
-import Hero from "../Hero/Hero";
+import Hero2 from "../Hero2/Hero2";
 import "./Legal.css";
 
 const Legal = (props) => {
   let { language, setLanguage, languageToUse } = props;
   return (
     <div>
-      <Hero
+      <Hero2
         language={language}
         setLanguage={setLanguage}
         languageToUse={languageToUse}
