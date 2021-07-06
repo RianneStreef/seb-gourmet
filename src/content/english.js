@@ -9,7 +9,9 @@ export const english = {
 
   welcomeHeader: "Welcome",
   welcomeText:
-    "SEB GOURMET TRAITEUR is an event company created in 2011 in the heart of Villartier, a small hamlet of the Belleville in Tarentaise (Savoie). We provide all types of services in the place of your choice (home, holiday room, rental chalet,...) with or without staff. The panel of our services extends from the deliveries of crèches and schools, to cocktails (dinner or not), to family and business meals, to weddings and other ceremonies. We focus on quality products that are processed by qualified staff (baker, pastry chef, butcher, caterer,...)",
+    "SEB GOURMET TRAITEUR is an event company created in 2011 in the heart of Villartier, a small hamlet of the Belleville in Tarentaise (Savoie). We provide all types of services in the place of your choice (home, holiday room, rental chalet,...) with or without staff. ",
+  welcomeText2:
+    "The panel of our services extends from the deliveries of crèches and schools, to cocktails (dinner or not), to family and business meals, to weddings and other ceremonies. We focus on quality products that are processed by qualified staff (baker, pastry chef, butcher, caterer,...)",
 
   suggestionsHeader: "Our suggestions",
 

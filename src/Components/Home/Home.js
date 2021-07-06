@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import "../../App.css";
 import Hero from "../Hero/Hero";
 import Welcome from "../Welcome/Welcome";
@@ -12,16 +12,13 @@ import banner from "../../images/banner.jpg";
 import bannerEN from "../../images/bannerEN.jpg";
 import banner2 from "../../images/banner2.jpg";
 
-import { content } from "../../content/languages";
+function App(props) {
+  let { language, setLanguage, languageToUse } = props;
 
-function App() {
   // let languageStoredInLocalStorage = localStorage.getItem("language");
 
-  let [language, setLanguage] = useState("french");
   // languageStoredInLocalStorage ? languageStoredInLocalStorage : "french"
   // );
-
-  let languageToUse = content.english;
 
   return (
     <div className="App">

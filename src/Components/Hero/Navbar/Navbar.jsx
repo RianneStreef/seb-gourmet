@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
 
+import { Link } from "react-scroll";
+
 const Nav = styled.nav`
   top: 0;
   left: 0;
@@ -24,6 +26,7 @@ const Name = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 20px;
   @media only screen and (min-width: 1024px) {
     margin-left: 250px;
   }
@@ -31,10 +34,12 @@ const Name = styled.div`
 
 const NameTitle = styled.h1`
   font-size: 1.3rem;
+  cursor: pointer;
 `;
 
 const Title = styled.h1`
   font-size: 1.8rem;
+  cursor: pointer;
 `;
 
 const Navbar = (props) => {
@@ -43,8 +48,12 @@ const Navbar = (props) => {
   return (
     <Nav>
       <Name>
-        <NameTitle>Seb Gourmet</NameTitle>
-        <Title>Traiteur</Title>
+        <Link to="home" spy={true} smooth={true}>
+          <NameTitle>Seb Gourmet</NameTitle>
+        </Link>
+        <Link to="home" spy={true} smooth={true}>
+          <Title>Traiteur</Title>
+        </Link>
       </Name>{" "}
       <Burger language={language} setLanguage={setLanguage} />
     </Nav>

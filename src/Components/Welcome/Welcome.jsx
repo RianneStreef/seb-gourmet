@@ -11,13 +11,15 @@ const Welcome = (props) => {
     : (language = content.french);
   return (
     <div className="welcome" id="welcome">
-      <div className="welcome-left">
-        <h2 className="welcome-title">{language.welcomeHeader}</h2>
-        <p className="line-height">{language.welcomeText}</p>
-        <p className="line-height">{language.welcomeText2}</p>
-      </div>
-      <div className="welcome-right">
-        <img src={imgWelcome} alt="Pain" className="welcome-img" />
+      <h2 className="welcome-title">{language.welcomeHeader}</h2>
+      <div className="welcome-body">
+        <div className="welcome-left">
+          <p className="line-height">{language.welcomeText}</p>
+          <p className="line-height">{language.welcomeText2}</p>
+        </div>
+        <div className="welcome-right">
+          <img src={imgWelcome} alt="Pain" className="welcome-img" />
+        </div>
       </div>
     </div>
   );

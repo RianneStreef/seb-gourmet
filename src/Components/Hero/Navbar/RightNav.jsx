@@ -15,7 +15,6 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
   margin-top: 0;
   padding-left: 0;
-
   li {
     padding: 5px 10px;
     display: flex;

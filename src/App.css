@@ -39,6 +39,12 @@ p {
 
 a {
   text-decoration: none;
+  transition: color 500ms ease;
+}
+
+a:hover{
+  color: #ffa33d;
+  transition: color 500ms ease;
 }
 
 .banner {

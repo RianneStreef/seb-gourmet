@@ -4,9 +4,10 @@
   margin: 20px auto;
   padding: 70px;
   display: flex;
-
-  
+  flex-direction: column;
 }
+
+
 
 .welcome-img {
   display: none;
@@ -18,9 +19,14 @@
 
 @media only screen and (min-width: 1024px) {
 .welcome {
-  flex-direction: row;
-  padding: 70px 0 70px 100px;}
+  flex-direction: column; 
 
+}
+
+.welcome-body {
+  display: flex;
+  flex-direction: row;
+}
 
 .welcome-right{
   display: flex;
