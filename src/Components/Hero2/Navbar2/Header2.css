@@ -30,7 +30,7 @@ li {
 }
 
 .home-link {
-  color: #000;
+  color: #fff;
 }
 
 .dot {
@@ -87,6 +87,10 @@ li {
 
   .menu-list {
     flex-direction: row;
+  }
+
+  .home-link {
+    color: #000;
   }
 
   .dot {

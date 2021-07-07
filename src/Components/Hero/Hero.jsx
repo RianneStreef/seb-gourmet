@@ -34,12 +34,12 @@ function Hero(props) {
         {language === "french" ? (
           <div data-src={header2} />
         ) : (
-          <div data-src={header2} />
+          <div data-src={header4} />
         )}
         {language === "french" ? (
           <div data-src={header3} />
         ) : (
-          <div data-src={header3} />
+          <div data-src={header5} />
         )}
       </AutoplaySlider>
     </div>
