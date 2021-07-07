@@ -12,9 +12,6 @@ const ContactForm = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  console.log(language);
-  console.log(languageToUse.language);
-
   const [state, handleSubmit] = useForm("mqkwlajv");
   if (state.succeeded) {
     return <p>{languageToUse.thankYouMsg}</p>;

@@ -13,8 +13,6 @@ const Contact = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  console.log(language);
-
   return (
     <>
       <div className="contact">

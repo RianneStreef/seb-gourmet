@@ -8,15 +8,12 @@ import "./Footer.css";
 import { content } from "../../content/languages";
 
 const Footer = (props) => {
-  console.log(props);
   let { language, languageToUse } = props;
 
   language === "english"
     ? (languageToUse = content.english)
     : // eslint-disable-next-line
       (languageToUse = content.french);
-
-  console.log(language.language);
 
   return (
     <div className="footer">
