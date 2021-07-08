@@ -3,10 +3,7 @@ import React from "react";
 import { content } from "../../../content/languages";
 
 const Phone = (props) => {
-  console.log(props);
-
   let { language } = props;
-  console.log(language);
 
   language === "english"
     ? (language = content.english)

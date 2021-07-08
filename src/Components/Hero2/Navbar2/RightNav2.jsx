@@ -5,8 +5,6 @@ import { content } from "../../../content/languages";
 import flagEn from "../../../images/icon-en.png";
 import flagFr from "../../../images/icon-fr.png";
 
-import { Link } from "react-scroll";
-
 import styled from "styled-components";
 
 const Ul = styled.ul`
