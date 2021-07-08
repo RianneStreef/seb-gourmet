@@ -27,11 +27,11 @@ export const english = {
 
   suggestion2Title: "Buffet",
   suggestion2p1:
-    "Char fish and lemon cream pie, Italian salad, with mozzarelle balls, grilled vegetables salad and cold cuts.",
+    "Char fish and lemon cream pie, Italian salad, with mozzaralle balls, grilled vegetables salad and cold cuts.",
 
   suggestion2p2: "Suckling pig roast, gratin dauphinois, vegetable pie.",
   suggestion2p3:
-    "Dessertd, pistache raspberry, chocolate passion fruit and a trio of chocolats",
+    "Dessert, pistache raspberry, chocolate passion fruit and a trio of chocolats",
 
   suggestion3Title: "Meal",
   suggestion3t1: "The starters",
@@ -39,12 +39,12 @@ export const english = {
     "Large platter with foie gras and artichoke pastries, scallops and mango tartar, lobster soup, lobster stuffed peppers and lemon confit",
   suggestion3t2: "The main course",
   suggestion3p2:
-    "Bresse chicken ballotine, morel cream, rosted asperagus with bacon, cherry tomatos with oregano, potato skewers",
+    "Bresse chicken ballotine, morel cream, roasted asparagus with bacon, cherry tomatos with oregano, potato skewers",
   suggestion3t3: "Cheese platter",
   suggestion3t4: "Dessert",
   suggestion3p4: "Sweets, revisited lemon pie",
 
-  moreInfo: "Do hesitate to contact us for more suggestions",
+  moreInfo: "Do not hesitate to contact us for more suggestions",
 
   instaFeed: "In photos",
 
