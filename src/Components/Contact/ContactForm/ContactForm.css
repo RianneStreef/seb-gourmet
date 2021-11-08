@@ -1,4 +1,6 @@
-
+.hidden {
+  display: none;
+}
 
 .contact-form {
   display: flex;
@@ -13,7 +15,7 @@
   margin-bottom: 30px;
 }
 
-.input {
+input, textarea {
   border: none;
   border-bottom: solid 1px black;
   margin-bottom: 20px;
@@ -24,7 +26,6 @@ background-color: #fff;
 
 .button {
   color: #000;
-  border: none;
   background-color: transparent;
   padding: 10px 20px;
   margin-top: 10px;

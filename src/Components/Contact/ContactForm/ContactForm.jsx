@@ -64,7 +64,7 @@ const ContactForm = (props) => {
               id="message"
               name="message"
               required
-              rows="10"
+              rows="3"
             ></textarea>
           </p>
           <div className="button-container">
