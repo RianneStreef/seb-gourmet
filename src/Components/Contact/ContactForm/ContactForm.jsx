@@ -1,5 +1,4 @@
 import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
 
 import { content } from "../../../content/languages";
 
