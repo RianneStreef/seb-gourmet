@@ -12,38 +12,64 @@ const ContactForm = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  const [state, handleSubmit] = useForm("mqkwlajv");
-  if (state.succeeded) {
-    return <p>{languageToUse.thankYouMsg}</p>;
-  }
-
   return (
     <div className="contact-form contact-item">
       <h3 className="contact-title">{languageToUse.contactMainTitle}</h3>
 
       <div id="contact">
-        <form onSubmit={handleSubmit} className="contact-form">
-          <label htmlFor="email">{languageToUse.contactEmail}</label>
-          <input id="email" type="email" name="email" className="input" />
-          <ValidationError prefix="Email" field="email" errors={state.errors} />
-
-          <label htmlFor="name">{languageToUse.contactName}</label>
-          <input id="name" type="text" name="name" className="input" />
-          <ValidationError prefix="Name" field="name" errors={state.errors} />
-
-          <label htmlFor="email">{languageToUse.contactMessage}</label>
-          <textarea id="message" name="message" className="input" />
-          <ValidationError
-            prefix="Message"
-            field="message"
-            errors={state.errors}
+        <form
+          className="contact-form"
+          name="contact"
+          method="post"
+          data-netlify="true"
+          action="/success"
+          netlify-honeypot="bot-field"
+        >
+          <input
+            className="contact-input"
+            type="hidden"
+            name="contact"
+            value="contact"
           />
-          <div className="buttonContainer">
-            <button
-              type="submit"
-              disabled={state.submitting}
-              className="button border"
-            >
+          <p className="hidden">
+            <label>
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label>
+          </p>
+          <p className="form-items">
+            <label htmlFor="name">{languageToUse.contactName}</label> <br />
+            <input
+              className="contact-input"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </p>
+          <p className="form-items">
+            <label htmlFor="email">{languageToUse.contactEmail} </label>
+            <br />
+            <input
+              className="contact-input"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </p>
+          <p className="form-items">
+            <label htmlFor="message">{languageToUse.contactMessage}</label>{" "}
+            <br />
+            <textarea
+              className="contact-input"
+              id="message"
+              name="message"
+              required
+              rows="10"
+            ></textarea>
+          </p>
+          <div className="button-container">
+            <button className="button" type="submit" value="Submit message">
               {languageToUse.contactSend}
             </button>
           </div>
