@@ -53,7 +53,7 @@ export const english = {
   contactTitle: "Let us know what you think!",
   contactName: "Name:",
   contactEmail: "Email:",
-  contactMessage: "Your message",
+  contactMessage: "Your message:",
   contactSend: "Send your message",
 
   thankYouMsg: "Thank you for your message!",
