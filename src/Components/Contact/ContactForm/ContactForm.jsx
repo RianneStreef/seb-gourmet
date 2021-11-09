@@ -27,12 +27,13 @@ const ContactForm = (props) => {
           <input
             className="contact-input"
             type="hidden"
-            name="contact-form"
-            value="contact-form"
+            name="contact"
+            value="contact"
           />
           <p className="hidden">
             <label>
-              Don’t fill this out if you’re human: <input name="bot-field" />
+              Don’t fill this out if you’re human:{" "}
+              <input type="text" name="bot-field" />
             </label>
           </p>
           <p className="form-items">

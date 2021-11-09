@@ -6,7 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <form name="contact-form" netlify netlify-honeypot="bot-field" hidden>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="bot-field" />
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
