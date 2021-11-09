@@ -27,8 +27,8 @@ const ContactForm = (props) => {
           <input
             className="contact-input"
             type="hidden"
-            name="contact"
-            value="contact"
+            name="contact-form"
+            value="contact-form"
           />
           <p className="hidden">
             <label>
