@@ -24,18 +24,9 @@ const ContactForm = (props) => {
           netlify-honeypot="bot-field"
           success="/success"
         >
-          <input
-            className="contact-input"
-            type="hidden"
-            name="contact"
-            value="contact"
-          />
-          <p className="hidden">
-            <label>
-              Don’t fill this out if you’re human:{" "}
-              <input type="text" name="bot-field" />
-            </label>
-          </p>
+          <input type="hidden" name="form-name" value="contact" />
+
+          <input type="text" name="bot-field" hidden />
           <p className="form-items">
             <label htmlFor="name">{languageToUse.contactName}</label> <br />
             <input
