@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import Legal from "./Components/Legal/Legal";
+import Success from "./Components/Success/Success.jsx";
 
 import { content } from "./content/languages";
 
@@ -23,6 +24,14 @@ function App() {
 
       <Route path="/legal">
         <Legal
+          language={language}
+          setLanguage={setLanguage}
+          languageToUse={languageToUse}
+        />
+      </Route>
+
+      <Route path="/success">
+        <Success
           language={language}
           setLanguage={setLanguage}
           languageToUse={languageToUse}

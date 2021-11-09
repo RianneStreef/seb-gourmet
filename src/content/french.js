@@ -64,4 +64,7 @@ export const french = {
   copyright2: "Images non contractuelles. ",
   mentionsLegale: "- Mentions Légales",
   copyright3: "Creé par ",
+
+  success: "Merci pour votre message!",
+  back: "Retour",
 };

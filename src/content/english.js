@@ -68,4 +68,7 @@ export const english = {
   copyright2: "Pictures are not contractual.",
   mentionsLegale: "- Legal mentions",
   copyright3: "Created by ",
+
+  success: "Thank you for your message!",
+  back: "Back",
 };

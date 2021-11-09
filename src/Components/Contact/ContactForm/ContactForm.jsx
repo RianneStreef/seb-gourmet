@@ -22,6 +22,7 @@ const ContactForm = (props) => {
           method="post"
           data-netlify="true"
           netlify-honeypot="bot-field"
+          success="/success"
         >
           <input
             className="contact-input"
